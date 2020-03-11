@@ -1,17 +1,18 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
     <p>
-      For a guide and recipes on how to configure / customize this project,<br>
-      check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
+      apple
+      <router-view></router-view>
+      <span>fen</span>
+      <!-- <router-view></router-view> -->
+      <router-view name="helper"></router-view>
     </p>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'apple',
   props: {
     msg: String
   }
